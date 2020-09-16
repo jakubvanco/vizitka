@@ -3,3 +3,15 @@ body {
   font-family: sans-serif;
 }
 
+.kontejner {
+  display: flex;
+}
+
+.levy, .pravy {
+  flex-basis: 50%;
+}
+
+.pravy {
+  display: flex;
+  flex-direction: column;
+}
